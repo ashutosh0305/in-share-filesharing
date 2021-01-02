@@ -19,5 +19,6 @@ module.exports=async function sendMail ({ from, to, subject, text, html}) {
         text: text, // plain text body
         html: html, // html body
     });
+    console.log(info);
 }
 // module.exports=sendMail;
