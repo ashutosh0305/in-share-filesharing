@@ -17,7 +17,7 @@ async function sendMail ({ from, to, subject, text, html}) {
         to: to, // list of receivers
         subject: subject, // Subject line
         text: text, // plain text body
-        html: html, // html body
+        html: html // html body
     });
     console.log(info);
 }
